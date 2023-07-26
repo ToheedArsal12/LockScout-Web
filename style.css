@@ -1,0 +1,676 @@
+.footer-elements .input-group-text,
+.action .input-group-text {
+  background-color: #437ef7;
+  color: #fff;
+  border: transparent;
+}
+.footerimg
+{
+    padding-top: 40px;
+}
+.footer-links
+{
+    padding-left: 120px;
+    padding-top: 40px;
+}
+.footerPadding
+{
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.footer-links h5 {
+  
+    padding-left: 0px;
+    padding-bottom: 8px;
+    color: var(--neutral-200, #f9f9f9);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+  .copyRights p {
+    text-align: center;
+    color: var(--neutral-800, #a5acba);
+    text-align: center;
+  
+    /* Text L/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+  }
+
+.footer-elements a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .footer-links p {
+   
+    padding-left: 0px;
+    color: var(--neutral-800, #a5acba);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+.SignUpContainer {
+    background: var(--primary-900, #2b63d9);
+  }
+  
+  .SignUpContainer h3 {
+    color: var(--base-white, #fff);
+    text-align: center;
+  
+    /* Headline M/Desktop/Semibold */
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.32px;
+  }
+  .SignUpContainer button {
+    border-radius: 6px;
+    background: var(--base-white, #fff);
+    border-color: #fff;
+    color: var(--primary-600, #437ef7);
+    text-align: center;
+  
+    /* Text Button/Semibold Large */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+  }
+.Box
+{
+    padding-left: 90px; padding-right: 80px;
+}
+.review-box-main p {
+    color: var(--gray-50, #5f6d7e);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+  .review-box-main h6 {
+    color: var(--gray-700, #272d37);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+  }
+  
+  .newButton {
+    border-radius: 15px;
+    background: var(--primary-25, #fcfcfc);
+    color: #7ca3f8;
+    border: none;
+    margin-bottom: 20px;
+  }
+.review-box .status {
+    color: var(--gray-50, #5f6d7e);
+    /* Text L/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+  }
+
+.AskedQuestions h3 {
+    color: var(--gray-700, #272d37);
+    text-align: center;
+  
+    /* Headline M/Desktop/Bold */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px;
+  }
+
+  .review-box {
+    border: 1px solid var(--neutral-600, #eaebf0);
+  }
+  .review-box p {
+    color: var(--gray-700, #272d37);
+  
+    /* Text L/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+  }
+.coreDes {
+  color: var(--gray-50, #5f6d7e);
+
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+
+.coreSubtitle {
+  color: var(--primary-600, #437ef7);
+
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+.coreTitle {
+  color: var(--gray-700, #272d37);
+
+  /* Headline XS/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 136.364% */
+  letter-spacing: -0.22px;
+}
+
+.CoreTeam {
+  padding-left: 40px;
+}
+.Dp {
+  width: 110%;
+  height: 110%;
+}
+
+.Banner2 h3 {
+  padding-right: 10px;
+}
+.BannerImg {
+  padding-right: 70px;
+  display: flex;
+  justify-content: end;
+}
+.Banner2 {
+  padding-left: 70px;
+  padding-right: 180px;
+}
+
+.Banner2 h3 {
+  color: var(--gray-700, #272d37);
+
+  /* Headline M/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px; /* 131.25% */
+  letter-spacing: -0.32px;
+}
+.Banner2 p {
+  color: var(--primary-600, #437ef7);
+
+  /* Text S/Semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.1px;
+}
+
+.Reviewcard button {
+  border-radius: 6px;
+  background: var(--base-white, #fff);
+  color: #437ef7;
+}
+.Reviewcard p {
+  color: var(--primary-200, #b1ccfb);
+
+  text-align: justify;
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+.Reviewcard h5 {
+  color: var(--base-white, #fff);
+
+  /* Headline XS/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 136.364% */
+  letter-spacing: -0.22px;
+}
+
+.Reviewcard {
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Reviews h2 {
+  color: var(--base-white, #fff);
+  text-align: center;
+
+  /* Headline M/Desktop/Bold */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+.Reviews p {
+  color: var(--primary-200, #b1ccfb);
+  text-align: center;
+
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+.navPadding {
+  padding-left: 60px;
+  padding-right: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.menu {
+  padding-left: 64px;
+}
+
+.menu li a {
+  gap: 100px;
+}
+
+.list {
+  padding-left: 32px;
+}
+.MainBanner h1 {
+  color: var(--gray-700, #272d37);
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.52px;
+}
+.ImgText {
+  color: var(--primary-600, #437ef7);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.1px;
+}
+.ContactUs {
+  border-color: white;
+  color: var(--primary-600, #437ef7);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+  background-color: white;
+}
+
+.SignUpButton {
+  color: var(--primary-600, #437ef7);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 22px;
+  padding-right: 32px;
+}
+
+.LoginButton {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 22px;
+}
+.BannerDes {
+  color: var(--gray-50, #5f6d7e);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.1px;
+}
+.Customer {
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Customer h2 {
+  color: var(--gray-700, #272d37);
+
+  /* Headline L/Desktop/Semibold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+.Customer p {
+  color: var(--gray-50, #5f6d7e);
+
+  /* Text L/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.1px;
+}
+/* Media query for screens with max width of 1440px */
+@media screen and (max-width: 1440px) {
+  .navPadding,
+  .menu {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .SignUpButton,
+  .LoginButton {
+    padding-right: 16px;
+  }
+  .MobileText {
+    display: none;
+  }
+}
+
+.BannerDesPad {
+  padding-left: 80px;
+  padding-right: 140px;
+  padding-top: 140px;
+}
+
+/* Media query for screens with max width of 1024px */
+@media screen and (max-width: 1024px) {
+  .navPadding,
+  .menu {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  .SignUpButton,
+  .LoginButton {
+    padding-right: 16px;
+  }
+  .BannerDesPad {
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 100px;
+  }
+  .MobileText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navPadding,
+  .menu {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  .SignUpButton,
+  .LoginButton {
+    display: none;
+  }
+
+  .Customer {
+    padding-left: 0px;
+    padding-right: 2px;
+  }
+}
+
+/* Media query for screens with max width of 768px */
+@media screen and (max-width: 768px) {
+  .navPadding,
+  .menu {
+    padding-left: 24px;
+    padding-right: 40px;
+  }
+  .CoreTeam {
+    padding-left: 20px;
+  }
+  .CoreTitle {
+    padding-top: 20px;
+  }
+
+  .SignUpButton,
+  .LoginButton {
+    display: none;
+  }
+  .BannerDesPad {
+    padding-left: 40px;
+    padding-right: 120px;
+    padding-top: 20px;
+  }
+  .Customer {
+    padding-left: 0px;
+    padding-right: 2px;
+  }
+  .Reviewcard {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .Banner2 h3 {
+    padding-right: 0px;
+  }
+  .BannerImg img {
+    width: 100%;
+    height: 70%;
+  }
+  .BannerImg {
+    padding-right: 0px;
+    display: block;
+    justify-content: space-between;
+  }
+  .Banner2 {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .delete{
+    display: none;
+   }
+   .Box
+   {
+       padding-left: 20px; padding-right: 20px;
+   }
+   .footerimg
+{
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.footer-links
+{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.footerPadding
+{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+}
+
+/* Media query for screens with max width of 576px */
+@media screen and (max-width: 576px) {
+  .Dp {
+    width: 100%;
+    height: 100%;
+  }
+  .navPadding,
+  .menu {
+    padding-left: 16px;
+    padding-right: 20px;
+  }
+
+  .SignUpButton,
+  .LoginButton {
+    display: none;
+  }
+  .BannerDesPad {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .GetStarted {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .ContactUs {
+    width: 100%;
+  }
+  .Customer {
+    padding-left: 0px;
+  }
+  .CoreTeam {
+    padding-left: 0px;
+  }
+  .delete{
+    display: none;
+   }
+   .Box
+   {
+       padding-left: 20px; padding-right: 20px;
+   }
+   .SignUpContainer button
+{
+    width: 100%;
+}
+.LoginDis
+{
+    margin-top: 10px;
+}
+.footerimg
+{
+    padding-top: 10px;
+}
+.footer-links
+{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footerPadding
+{
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.f1
+{
+    margin-right: 140px;
+}
+.FormBtn
+{
+    width: 100%;
+}
+
+  
+}
+
+/* Media query for screens with max width of 360px */
+@media screen and (max-width: 360px) {
+  .navPadding,
+  .menu {
+    padding-left: 8px;
+  }
+  .CoreTeam {
+    padding-left: 0px;
+  }
+  .SignUpButton,
+  .LoginButton {
+    display: none;
+  }
+  .BannerDesPad {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .GetStarted {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .ContactUs {
+    width: 100%;
+  }
+  .Customer {
+    padding-left: 0px;
+  }
+  .delete{
+    display: none;
+   }
+   .Box
+{
+    padding-left: 20px; padding-right: 20px;
+}
+.SignUpContainer button
+{
+    width: 100%;
+}
+.LoginDis
+{
+    margin-top: 10px;
+}
+.footerimg
+{
+    padding-top: 20px;
+}
+.footer-links
+{
+    padding-left: 120px;
+    padding-top: 20px;
+
+}
+.footerPadding
+{
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-right:0px;
+}
+.FormBtn
+{
+    width: 100%;
+}
+}

@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lookscout</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navPadding">
+      <a class="navbar-brand logo" href="#"
+        ><img src="Images/Company Logo1.svg"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse Buttons" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item list">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item list">
+            <a class="nav-link" href="#">Our Products</a>
+          </li>
+          <li class="nav-item dropdown list">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Resources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item list">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-light SignUpButton my-2 my-sm-0">
+          Sign Up
+        </button>
+        <button type="button" class="btn btn-primary my-2 my-sm-0 LoginButton">
+          Login In
+        </button>
+      </div>
+    </nav>
+
+    <div
+      class="container-fluid MainBanner"
+      style="background: var(--neutral-100, #f8f9fb)"
+    >
+      <div class="row" style="padding: 0px">
+        <div class="col-md-6 order-md-2" style="padding: 0px">
+          <img width="100%" height="100%" src="Images/banner.png" alt="" />
+        </div>
+        <div class="col-md-6 order-md-1 BannerDesPad">
+          <div>
+            <p class="ImgText">
+              <img src="Images/light.svg" alt="" />
+              1% OF THE INDUSTRY
+            </p>
+            <h1 class="d-none d-md-block">
+              Your Supercharged Design Workflow.
+            </h1>
+            <h1 class="d-block d-md-none">
+              Hype got you here.. Stay for the support.
+            </h1>
+            <p class="pt-2 BannerDes">
+              We’ve been told it is not possible to overachieve our customers’
+              expectations. We have not reinvented the wheel, we decided to
+              build upon it.
+            </p>
+
+            <div class="pt-3 pb-5">
+              <button type="button" class="btn btn-primary GetStarted" style="padding-top: 12px; padding-bottom: 12px;">
+                Get Started
+              </button>
+              <button type="button" class="btn btn-primary ContactUs" style="padding-top: 12px; padding-bottom: 12px;">
+                Contact Us <img src="Images/blueright.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid features pb-4 pt-4">
+      <div class="row Customer">
+        <div class="col-sm-6 col-md-3">
+          <div class="container">
+            <h2>300K+</h2>
+            <p>
+              Pellentesque morbi non condi mentum iaculis dictum neque, velit
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="container">
+            <h2>300K+</h2>
+            <p>
+              Pellentesque morbi non condi mentum iaculis dictum neque, velit
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="container">
+            <h2>300K+</h2>
+            <p>
+              Pellentesque morbi non condi mentum iaculis dictum neque, velit
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="container">
+            <h2>300K+</h2>
+            <p>
+              Pellentesque morbi non condi mentum iaculis dictum neque, velit
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid Reviews pt-4"
+      style="padding: 0px 0px; margin: 0px 0px; background: var(--primary-900, #2b63d9)"
+    >
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center" style="margin: 0px 0px;">
+          <div class="col-12">
+            <h2>Our Channels Review</h2>
+            <p>
+              Organically grow the holistic world view of disruptive innovation
+              via workplace diversity and empowerment.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid Reviewcard">
+        <!-- Desktop layout (3 cards per row) -->
+        <div class="row d-none d-md-flex">
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/soup.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Wireless</h5>
+                  <p style="text-align: start">
+                    Enim nec rhoncus volutpat nullam eros sapien pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/Lighting.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Synergistic</h5>
+                  <p style="text-align: start">
+                    Neque ut integer nulla tellus semper amet id scelerisque
+                    eros.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 30px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/user.svg"
+                    alt="Logo" width="32px" height="32px" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Distributed</h5>
+                  <p style="text-align: start">
+                    Aliquet et cras nam sed mauris at laoreet bibendum et.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-none d-md-flex">
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/bulb.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Seamless</h5>
+                  <p style="text-align: start">
+                    Lacus vulputate vel metus massa platea ut pellentesque
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/star.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Revolutionary</h5>
+                  <p style="text-align: start">
+                    Mauris orci eget iaculis placerat euismod at urna posuere.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 30px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/web.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Web-enabled</h5>
+                  <p style="text-align: start">
+                    Mauris orci eget iaculis placerat euismod at urna posuere.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tablet layout (2 cards per row) -->
+        <div class="row d-none d-sm-flex d-md-none">
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/soup.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Wireless</h5>
+                  <p style="text-align: start">
+                    Enim nec rhoncus volutpat nullam eros sapien pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/Lighting.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Synergistic</h5>
+                  <p style="text-align: start">
+                    Neque ut integer nulla tellus semper amet id scelerisque
+                    eros.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-none d-sm-flex d-md-none">
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 30px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/user.svg"
+                    alt="Logo" width="32px" height="32px" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Distributed</h5>
+                  <p style="text-align: start">
+                    Aliquet et cras nam sed mauris at laoreet bibendum et.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/bulb.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Seamless</h5>
+                  <p style="text-align: start">
+                    Lacus vulputate vel metus massa platea ut pellentesque
+                    turpis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-none d-sm-flex d-md-none">
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/star.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Revolutionary</h5>
+                  <p style="text-align: start">
+                    Mauris orci eget iaculis placerat euismod at urna posuere.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 30px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/web.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Web-enabled</h5>
+                  <p style="text-align: start">
+                    Mauris orci eget iaculis placerat euismod at urna posuere.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile layout (1 card per row) -->
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/soup.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Wireless</h5>
+                  <p style="text-align: start">
+                    Enim nec rhoncus volutpat nullam eros sapien pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/Lighting.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Synergistic</h5>
+                  <p style="text-align: start">
+                    Neque ut integer nulla tellus semper amet id scelerisque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/soup.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Wireless</h5>
+                  <p style="text-align: start">
+                    Enim nec rhoncus volutpat nullam eros sapien pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/Lighting.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Synergistic</h5>
+                  <p style="text-align: start">
+                    Neque ut integer nulla tellus semper amet id scelerisque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/soup.svg"
+                    alt="Logo" width="100%">
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Wireless</h5>
+                  <p style="text-align: start">
+                    Enim nec rhoncus volutpat nullam eros sapien pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-sm-none">
+          <div class="col-12 mb-4">
+            <div
+              class="card"
+              style="
+                border-radius: 5px;
+                background: var(--primary-700, #3971e7);
+              "
+            >
+              <div class="card-body">
+                <div
+                  class="row justify-content-between align-items-start padding pl-2 pb-2"
+                  style="padding-top: 20px; padding-bottom: 15px;"
+                >
+                  <div
+                    class="col-auto"
+                    style="
+                      border-radius: 40px;
+                      background: var(--primary-600, #437ef7);
+                    "
+                  >
+                    <img width: "32px" height: "32px" src="Images/Lighting.svg"
+                    alt="Logo" width="100%" >
+                  </div>
+                  <div class="col-auto">
+                    <button type="button" class="btn btn-primary">
+                      Show More
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <h5>Synergistic</h5>
+                  <p style="text-align: start">
+                    Neque ut integer nulla tellus semper amet id scelerisque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pb-3">
+      <div class="container-fluid" style="padding-top: 40px">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-12 col-sm-12 pb-4 d-flex justify-content-center Banner2"
+            style="flex-direction: column"
+          >
+            <p>1% OF THE INDUSTRY</p>
+            <h3 class="pb-3">
+              Demonstrate branding consequently think outside the box and
+              beyond.
+            </h3>
+            <div>
+              <button type="button" class="btn btn-primary" style="padding-top: 12px; padding-bottom: 12px;">
+                Start Now <img src="Images/right.svg" />
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 BannerImg">
+            <div>
+              <img src="Images/Photo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-4">
+      <div class="row d-flex justify-content-center text-center">
+        <div class="col-lg-7 col-md-12">
+          <h2>The Core of Our Team</h2>
+          <p>
+            Organically grow the holistic world view of disruptive innovation
+            via workplace diversity and empowerment of people and great talent
+            that truly rocks.
+          </p>
+        </div>
+      </div>
+    
+      <div class="container-fluid Customer">
+        <div class="row pb-2  CoreTeam">
+          <div class="col-md-6" style="padding: 0px; margin: 0px">
+            <div class="card d-flex" style="border: none">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-4 core">
+                    <img
+                      src="Images/Image1.png"
+                      alt="Profile Picture"
+                      class="Dp"
+                    />
+                  </div>
+                  <div class="col-sm-8 pl-4 pt-3">
+                    <h5 class="card-title coreTitle core1">Lisa Clarc</h5>
+                    <h6 class="card-subtitle coreSubtitle">UI/UX Designer</h6>
+                    <p class="card-text coreDes">
+                      An ambitious and exquisite personality that always strives
+                      to exceed expectations. Always there when someone is in
+                      need.
+                    </p>
+                    <div>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo1.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo2.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo3.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo4.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 " style="padding: 0px; margin: 0px">
+            <div class="card d-flex" style="border: none">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-4 core">
+                    <img
+                      src="Images/Image2.png"
+                      alt="Profile Picture"
+                      class="Dp"
+                    />
+                  </div>
+                  <div class="col-sm-8 pl-4 pt-3">
+                    <h5 class="card-title coreTitle core1">Olivia Manson</h5>
+                    <h6 class="card-subtitle coreSubtitle">Project Manager</h6>
+                    <p class="card-text coreDes pt-2">
+                      An ambitious and exquisite personality that always strives
+                      to exceed expectations. Always there when someone is in
+                      need.
+                    </p>
+                    <div>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo1.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo2.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo3.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo4.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row CoreTeam">
+          <div class="col-md-6" style="padding: 0px; margin: 0px">
+            <div class="card d-flex" style="border: none">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-4 core">
+                    <img
+                      src="Images/Image3.png"
+                      alt="Profile Picture"
+                      class="Dp"
+                    />
+                  </div>
+                  <div class="col-sm-8 pl-4 pt-3">
+                    <h5 class="card-title coreTitle core1 ">Andrew Drue</h5>
+                    <h6 class="card-subtitle coreSubtitle">Project Manager</h6>
+                    <p class="card-text coreDes pt-2">
+                      An ambitious and exquisite personality that always strives
+                      to exceed expectations. Always there when someone is in
+                      need.
+                    </p>
+                    <div>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo1.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo2.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo3.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo4.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" style="padding: 0px; margin: 0px">
+            <div class="card d-flex" style="border: none">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-4 core">
+                    <img
+                      src="Images/Image4.png"
+                      alt="Profile Picture"
+                      class="Dp"
+                    />
+                  </div>
+                  <div class="col-sm-8 padding pl-4 pt-3">
+                    <h5 class="card-title coreTitle core1">Morgan John</h5>
+                    <h6 class="card-subtitle coreSubtitle">CEO</h6>
+                    <p class="card-text coreDes pt-2">
+                      An ambitious and exquisite personality that always strives
+                      to exceed expectations. Always there when someone is in
+                      need.
+                    </p>
+                    <div>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo1.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo2.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo3.svg" alt=""
+                      /></a>
+                      <a href="#" class="social-link padding pr-2"
+                        ><img src="Images/slogo4.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="container-fluid pt-2 pb-5 AskedQuestions">
+      <div class="container pb-4">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-8 col-sm-12">
+            <h3>Frequently asked questions</h3>
+            <p class="Descripton pt-1">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid Box" >
+        <div class="row review-box review-box-main pt-3 justify-content-center">
+          <div class="col-9">
+            <div class="container padding pl-3 pr-0">
+              <h6>Authentification Issues</h6>
+              <p>Porttitor nec est nisi, id nunc.</p>
+            </div>
+          </div>
+          <div class="col-3 pt-2 d-flex justify-content-end">
+            <button class="btn btn-primary newButton">New</button>
+          </div>
+        </div>
+
+        <div class="row review-box pb-0 pt-3">
+          <div class="col-9">
+            <div class="container">
+              <p>
+                Mi est diam hendrerit ut ipsum, sodales aliquam mauris neque.
+              </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <p class="status delete">
+              Updated last week
+              <img class="pl-1" src="Images/down.svg" alt="" />
+            </p>
+          </div>
+        </div>
+
+        <div class="row review-box pb-0 pt-3">
+          <div class="col-9">
+            <div class="container">
+              <p>Cras vitae, scelerisque tortor augue.</p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <p class="status delete">
+              Updated today <img class="pl-1" src="Images/down.svg" alt="" />
+            </p>
+          </div>
+        </div>
+
+        <div class="row review-box pb-0 pt-3">
+          <div class="col-9">
+            <div class="container">
+              <p>
+                Venenatis malesuada turpis sit integer felis rhoncus dictum eget
+                ut.
+              </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <p class="status delete">
+              Updated 2 days ago<img
+                class="pl-1"
+                src="Images/down.svg"
+                alt=""
+              />
+            </p>
+          </div>
+        </div>
+
+        <div class="row review-box pb-0 pt-3">
+          <div class="col-9">
+            <div class="container">
+              <p>
+                Pretium ultricies donec non mollis senectus lectus libero
+                tellus.
+              </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <p class="status delete">
+              Updated 3 days ago<img
+                class="pl-1"
+                src="Images/down.svg"
+                alt=""
+              />
+            </p>
+          </div>
+        </div>
+
+        <div class="row review-box pb-0 pt-3">
+          <div class="col-9">
+            <div class="container">
+              <p>Elit massa amet aenean ultrices vitae placerat augue.</p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <p class="status delete">
+              Updated 4 days ago<img
+                class="pl-1"
+                src="Images/down.svg"
+                alt=""
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pb-5 pt-5 SignUpContainer">
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-6 col-md-12">
+            <h3 class="pb-3">
+              Welcome to your new digital reality that which will rock your
+              world truly at all.
+            </h3>
+
+            <button type="button" class="btn btn-primary" style="padding-top: 10px;
+            padding-bottom: 10px; margin-right:4px;">Sign up</button>
+            <button type="button" class="btn btn-primary LoginDis" style="border-radius: 6px;
+            background: var(--primary-600, #437EF7);
+            padding-top: 12px;
+            padding-bottom: 12px;
+            
+            box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04); border: none ; color:white">
+              Login In
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+ <footer class="bg-dark text-white pt-4 pb-4 footerPadding">
+      <div class="container-fluid footer-elements">
+        <div class="row text-centre" style="padding: 0px">
+          <div class="col-md-3 footerimg">
+            <img src="Images/Company Logo.svg" alt="" />
+            <p class="pt-3 pb-2">
+              Generate outside the box thinking with the possibility to targtet
+              the low.
+            </p>
+            <div class="input-group pb-5">
+              <input
+                type="text"
+                class="form-control FormBtn"
+                placeholder="Enter email..."
+                aria-label="Enter email..."
+                aria-describedby="basic-addon2"
+                style="border-radius: 6px 0px 0px 6px;
+                border: 1px solid var(--gray-300, #2E3545);
+                background: var(--gray-600, #2C3444);;"
+              />
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">Submit</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 footer-links order-sm-2 order-md-2 f1">
+            <h5><b>Why Choose Us?</b></h5>
+            <p><a href="#">Scale</a></p>
+            <p><a href="#">Solutions</a></p>
+            <p><a href="#">Our Competition</a></p>
+            <p><a href="#">Channels</a></p>
+            <p><a href="#">Events</a></p>
+            <p><a href="#">Watch The Demo</a></p>
+          </div>
+          <div class="col-3 footer-links order-sm-3 order-sm-1 f2">
+            <h5><b>Company</b></h5>
+            <p><a href="#">Leadership</a></p>
+            <p><a href="#">Careers</a></p>
+            <p><a href="#">Investor Relations</a></p>
+            <p><a href="#">Media Kit</a></p>
+          </div>
+          <div class="col-sm-3   footer-links order-sm-1 order-sm-3 f3">
+            <h5><b>Resources</b></h5>
+            <p><a href="#">Community</a></p>
+            <p><a href="#">Events</a></p>
+            <p><a href="#">Help Center</a></p>
+            <p><a href="#">Partners</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-12 copyRights">
+            <p>&copy; 2023 Lookscout. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+  </body>
+</html>
